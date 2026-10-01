@@ -60,10 +60,10 @@ function DynamicBackground() {
   const location = useLocation();
   const path = location.pathname;
   
-  let bgImg = '/minecraft-bg.jpg';
-  if (path === '/about') bgImg = '/bg-about.jpg';
-  else if (path === '/skills') bgImg = '/bg-skills.jpg';
-  else if (path === '/projects') bgImg = '/bg-projects.jpg';
+  let bgImg = `${import.meta.env.BASE_URL}minecraft-bg.jpg`;
+  if (path === '/about') bgImg = `${import.meta.env.BASE_URL}bg-about.jpg`;
+  else if (path === '/skills') bgImg = `${import.meta.env.BASE_URL}bg-skills.jpg`;
+  else if (path === '/projects') bgImg = `${import.meta.env.BASE_URL}bg-projects.jpg`;
 
   return (
     <img
