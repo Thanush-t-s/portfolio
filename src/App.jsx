@@ -123,7 +123,7 @@ export default function App() {
       <div className="h-screen w-screen bg-[#0a0f1a] flex flex-col items-center justify-center gap-4">
         <div className="w-10 h-10 border-2 border-cyan-500/30 border-t-cyan-400 rounded-full animate-spin" />
         <p className="text-cyan-400/80 text-xs tracking-[0.3em] uppercase font-semibold">
-          Initializing Architecture
+          Initializing Environment
         </p>
       </div>
     );
@@ -590,8 +590,8 @@ function ProjectsRoute({ projects }) {
             <Server className="w-6 h-6 text-amber-400" />
           </div>
           <div>
-            <h2 className="text-2xl font-extrabold text-white tracking-tight drop-shadow-md">Architecture Portfolio</h2>
-            <p className="text-amber-500/70 text-[11px] font-mono uppercase tracking-widest mt-1">Production-Grade Distributed Systems</p>
+            <h2 className="text-2xl font-extrabold text-white tracking-tight drop-shadow-md">Software Projects</h2>
+            <p className="text-amber-500/70 text-[11px] font-mono uppercase tracking-widest mt-1">Academic & Personal Development</p>
           </div>
         </div>
 
