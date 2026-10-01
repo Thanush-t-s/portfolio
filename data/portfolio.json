@@ -1,9 +1,9 @@
 {
   "home": {
     "name": "Thanush T S",
-    "headline": "Computer Science Student",
-    "tagline": "Passionate about building software, exploring new technologies, and solving complex problems.",
-    "roles": ["Computer Science Student", "Software Developer", "Tech Enthusiast"],
+    "headline": "Software Engineer",
+    "tagline": "Designing robust backend systems, building modern web applications, and exploring the frontiers of artificial intelligence.",
+    "roles": ["Full-Stack Developer", "Software Engineer", "AI/ML Enthusiast", "CS Student"],
     "ctaButtons": [
       { "label": "Explore Projects", "href": "#/projects" },
       { "label": "Contact Me", "href": "#/contact" }
@@ -15,11 +15,11 @@
     ]
   },
   "about": {
-    "summary": "I am a student at BMS Institute of Technology and Management, currently exploring full-stack web development, software engineering, and system design. I love turning complex problems into clean, efficient code.",
+    "summary": "I am a Computer Science student at BMS Institute of Technology and Management with a deep passion for building scalable software. I specialize in full-stack web development, backend engineering, and have a strong foundation in Data Structures and Algorithms.",
     "highlights": [
-      "Full Stack Web Development",
-      "Data Structures & Algorithms",
-      "Eager to Learn & Build"
+      "Full Stack Development",
+      "System Architecture",
+      "Machine Learning"
     ]
   },
   "skills": [
@@ -32,28 +32,28 @@
   "projects": [
     {
       "id": "project-1",
-      "title": "Event-Driven Order Processing Engine",
-      "description": "High-throughput microservice architecture built with Java 21, Spring Boot, and Apache Kafka handling distributed saga transactions.",
-      "techStack": ["Java 21", "Spring Boot", "Kafka", "PostgreSQL", "Docker"],
-      "githubUrl": "https://github.com/steve-architect/event-driven-orders",
+      "title": "Scalable E-Commerce API",
+      "description": "High-throughput backend architecture built with Spring Boot, Docker, and PostgreSQL handling distributed transactions.",
+      "techStack": ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+      "githubUrl": "https://github.com/Thanush-t-s",
       "demoUrl": ""
     },
     {
       "id": "project-2",
-      "title": "Distributed API Gateway & Service Mesh",
-      "description": "Resilient backend gateway featuring rate limiting, JWT token validation, circuit breaking, and automated OpenAPI documentation.",
-      "techStack": ["Java", "Spring Cloud Gateway", "Redis", "OpenAPI", "Resilience4j"],
-      "githubUrl": "https://github.com/steve-architect/api-gateway-service",
+      "title": "AI Image Recognition System",
+      "description": "Deep learning model built with PyTorch and TensorFlow for high-accuracy computer vision and image classification.",
+      "techStack": ["Python", "PyTorch", "TensorFlow", "NumPy"],
+      "githubUrl": "https://github.com/Thanush-t-s",
       "demoUrl": ""
     }
   ],
   "contact": {
     "email": "ts.thanush@gmail.com",
-    "location": "India",
+    "location": "Bengaluru, India",
     "socials": [
       { "platform": "GitHub", "url": "https://github.com/Thanush-t-s" },
       { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/thanush-t-s-a99440376/" }
     ],
-    "message": "Open for Java backend architecture consulting, microservice code reviews, and lead engineering roles."
+    "message": "Open for internship opportunities, hackathon collaborations, and entry-level software engineering roles."
   }
 }
