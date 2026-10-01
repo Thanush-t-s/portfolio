@@ -1,0 +1,59 @@
+{
+  "home": {
+    "name": "Thanush T S",
+    "headline": "Computer Science Student",
+    "tagline": "Passionate about building software, exploring new technologies, and solving complex problems.",
+    "roles": ["Computer Science Student", "Software Developer", "Tech Enthusiast"],
+    "ctaButtons": [
+      { "label": "Explore Projects", "href": "#/projects" },
+      { "label": "Contact Me", "href": "#/contact" }
+    ],
+    "socials": [
+      { "platform": "GitHub", "url": "https://github.com/Thanush-t-s" },
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/thanush-t-s-a99440376/" },
+      { "platform": "LeetCode", "url": "https://leetcode.com/u/Thanush_T_S/" }
+    ]
+  },
+  "about": {
+    "summary": "I am a student at BMS Institute of Technology and Management, currently exploring full-stack web development, software engineering, and system design. I love turning complex problems into clean, efficient code.",
+    "highlights": [
+      "Full Stack Web Development",
+      "Data Structures & Algorithms",
+      "Eager to Learn & Build"
+    ]
+  },
+  "skills": [
+    "Python", "JavaScript", "TypeScript", "Java", "C++", "C", "Go", "Rust",
+    "Django", "Flask", "FastAPI", "Spring Boot", "React", "Node.js", "Tailwind",
+    "PostgreSQL", "MySQL", "MongoDB", "Redis", "Docker", "AWS",
+    "Linux", "Git", "GitHub", "VS Code", "Postman",
+    "Pandas", "NumPy", "TensorFlow", "PyTorch"
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Event-Driven Order Processing Engine",
+      "description": "High-throughput microservice architecture built with Java 21, Spring Boot, and Apache Kafka handling distributed saga transactions.",
+      "techStack": ["Java 21", "Spring Boot", "Kafka", "PostgreSQL", "Docker"],
+      "githubUrl": "https://github.com/steve-architect/event-driven-orders",
+      "demoUrl": ""
+    },
+    {
+      "id": "project-2",
+      "title": "Distributed API Gateway & Service Mesh",
+      "description": "Resilient backend gateway featuring rate limiting, JWT token validation, circuit breaking, and automated OpenAPI documentation.",
+      "techStack": ["Java", "Spring Cloud Gateway", "Redis", "OpenAPI", "Resilience4j"],
+      "githubUrl": "https://github.com/steve-architect/api-gateway-service",
+      "demoUrl": ""
+    }
+  ],
+  "contact": {
+    "email": "ts.thanush@gmail.com",
+    "location": "India",
+    "socials": [
+      { "platform": "GitHub", "url": "https://github.com/Thanush-t-s" },
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/thanush-t-s-a99440376/" }
+    ],
+    "message": "Open for Java backend architecture consulting, microservice code reviews, and lead engineering roles."
+  }
+}
