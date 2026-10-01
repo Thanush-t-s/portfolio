@@ -113,9 +113,10 @@ export default function App() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    fetch(`/data/portfolio.json?t=${Date.now()}`)
+    fetch(`${import.meta.env.BASE_URL}data/portfolio.json?t=${Date.now()}`)
       .then(r => r.json())
-      .then(d => { setData(d); setLoaded(true); });
+      .then(d => { setData(d); setLoaded(true); })
+      .catch(err => { console.error("Failed to load portfolio data", err); setLoaded(true); });
   }, []);
 
   if (!loaded) {
